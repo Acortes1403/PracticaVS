@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra-navegacion ul {
+    display: flex; 
+    justify-content: space-around; 
+    background-color: #f2f2f2; 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.barra-navegacion li {
+    flex-grow: 1; 
+}
+
+.barra-navegacion a {
+    display: block; 
+    text-decoration: none;
+    padding: 10px 20px; 
+    color: black; 
+}
+
+.barra-navegacion a:hover {
+    color: blue; 
+    background-color: #ddd;
+}
